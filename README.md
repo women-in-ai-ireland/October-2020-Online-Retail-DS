@@ -1,7 +1,7 @@
 WAI-LEARN-Online-Retail-DS
 ==============================
 
-Cohort Analysis &and customer segmentation 
+Cohort Analysis and customer segmentation 
 
 Project Organization
 ------------
