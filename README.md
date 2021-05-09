@@ -13,7 +13,7 @@ Nowadays e-commerce companies are becoming more and more popular, the pandemic o
 The internet makes shopping easy, fast, and handy for customers that have the convenience to choose among a ton of stores without leaving the sofa, however, such amazing freedom brings a huge challenge to companies to be more innovative in order to attract new customers and keep the old customers engaged. Hence, it is safe to say that a company’s capability to enlarge its number of clients has a significant relationship to its growth of sales. Nevertheless, just expanding the customer base is not enough since it would not meet its ability to drive sales. Furthermore, it's crucial to understand customer's behavior in order to make actionable decisions and support your business to grow, keep, and acquire the right consumers.
 
 # Getting Started:
-In this project, we are going to use a UCI data set that contains sales transactions of an online retail store based in the UK occurring between December 2010 and December 2011, the customer base of the company is mainly wholesale retailers. 
+In this project, we are going to use a UCI data set (Taken from Kaggle [1]) that contains sales transactions of an online retail store based in the UK occurring between December 2010 and December 2011, the customer base of the company is mainly wholesale retailers. 
 First, we are going to have a look at the data and see if we will need to perform any transformation in the data set as well as to get some insights from our customer base.
 
 
@@ -57,7 +57,7 @@ For the purpose of this project we are looking to answer the following questions
 - When do they churn? Can we identify/predict it?
 - What are the actions we can take to minimize customers chun?
 
-For cohort analysis, we are going to add 3 extra columns to the dataset:
+For cohort analysis, we are going to add 3 extra columns to the dataset: (see [2] for more details)
 - Invoice Month: A representation of the month and year of the transaction
 - Cohort Month: A month and year of a customer’s first purchase. This will be the same across all invoices for a particular customer.
 - Cohort Index: A representation of a customer's stage in its “lifetime”. This number describes how many months have passed since their first purchase.
@@ -131,7 +131,11 @@ Here are some suggestions for business managers based on the RFM score and some 
 
 <img width="656" alt="Screenshot 2021-05-09 at 12 57 10" src="https://user-images.githubusercontent.com/38282927/117571341-135ff100-b0c6-11eb-8492-caf9080dc80c.png">
 
+# Refrences:
 
+[1] Data: https://www.kaggle.com/jihyeseo/online-retail-data-set-from-uci-ml-repo
+
+[2] Notebooks: https://www.kaggle.com/mahmoudelfahl/cohort-analysis-customer-segmentation-with-rfm
 
 Project Organization
 ------------
